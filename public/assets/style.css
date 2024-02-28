@@ -1,0 +1,90 @@
+/* CSS */
+.vote-count {
+    display: none; /* Masquer le nombre de votes par défaut */
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    position: absolute; /* Position absolue pour permettre le positionnement précis */
+    top: 100px; /* Ajustement de la position verticale */
+    left: 100px; /* Ajustement de la position horizontale */
+    background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent pour une meilleure lisibilité */
+    border-radius: 10px; /* Coins arrondis pour un aspect plus esthétique */
+    z-index: 1; /* Empilement pour être au-dessus de l'image */
+    height: 25px;
+}
+
+.card:hover .vote-count {
+    display: block; /* Afficher le nombre de votes lors du survol de la carte */
+}
+
+a{
+    text-decoration: none;
+}
+nav-link:hover{
+    font-weight: bolder;
+    font-size: large;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #004585; /* bleu */
+}
+
+a {
+  color: #0055a4; /* bleu */
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffcf00; /* jaune */
+}
+
+/* Boutons */
+
+button {
+  background-color: #ffcf00; /* jaune */
+  color: #000000; /* noir */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff9900; /* orange vif */
+}
+
+/* Liens */
+
+a.lien {
+    font-weight: bold;
+  text-decoration: none;
+}
+
+a.lien:hover {
+  color: hsla(51, 100%, 51%, 0.583); /* vert */
+
+}
+
+a.lien:active {
+  color: #ffcf00; /* jaune */
+}
+
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 0px; /* Hauteur du footer */
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  background-color: #f8f9fa;
+  color: #333;
+
+ 
+}
